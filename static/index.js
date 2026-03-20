@@ -333,7 +333,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             tar = document.getElementById(p.id);
             tar.className = tar.className.replace(_ttreg, ' tt$1');
             _gameBBListIndex++;
-            _gameScore++;
+            _gameScore += 10;
 
             updatePanel();
 
